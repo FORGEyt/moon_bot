@@ -1,0 +1,17 @@
+.promo{
+    &__title{
+        text-align: center;
+        color:white;
+        padding-top: 115px;
+        padding-bottom: 12px;
+        span{
+            color:#FFCC68;
+        }
+    }
+    &__text{
+        color:white;
+        margin: 0 auto;
+        width: 315px;
+        padding-left: 0;
+    }
+}

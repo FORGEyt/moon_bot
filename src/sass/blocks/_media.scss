@@ -1,0 +1,37 @@
+@media (max-width: 425px){
+    .promo{
+        &__title{
+            font-size: 60px;
+        }
+        &__text{
+            font-size: 20px;
+            width: 397px;
+        }
+    }
+    .btn{
+        &__promo{
+            width: 262px;
+            padding: 29px 17px;
+        }
+    }
+    .benefits{
+        &__wrapper{
+            justify-content: center;
+            padding-top: 34px;
+            display: grid;
+            grid-template-rows: repeat(4, 199px);
+            grid-template-columns: none;
+            gap: 17px 32px;
+        }
+        &__block{
+            &-title{
+                font-size: 21px;
+            }
+            &-text{
+                line-height: 17px;
+                padding-top: 40px;
+                font-size: 16px;
+            }
+        }
+    }    
+}

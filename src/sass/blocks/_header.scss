@@ -1,0 +1,23 @@
+.header{
+    &__navigation{
+        ul{
+            li{
+                &:nth-child(1){
+                    padding-right: 136px;
+                }   
+            }
+        }
+        &_list{
+            display: flex;
+            // grid-template-columns: 102px 56px 102px 110px;
+            font-size: 14px;
+            gap: 20px;
+            list-style: none;
+            color: white;
+                &-item{
+                    padding-top: 9px;
+                }
+        }
+
+    }
+}
